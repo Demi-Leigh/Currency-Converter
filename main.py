@@ -47,6 +47,9 @@ lbl_amount.grid(row=1, column=1, padx=20, pady=20)
 lbl_result = tk.Label(window, bg="yellow")
 lbl_result.grid(row=5, column=1, padx=20, pady=20)
 
+currency_lbl = Label(window, text="Converting from USD to entered currencies", bg="yellow")
+currency_lbl.place(x=60, y=200)
+
 amount_ent = tk.Entry(window)
 amount_ent.grid(row=1, column=2, padx=20, pady=20)
 
